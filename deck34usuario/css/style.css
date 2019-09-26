@@ -1,0 +1,973 @@
+@font-face {
+    font-family: 'zekton_free';
+    src: url('fonts/zekton_free.eot');
+    src: url('fonts/zekton_free.eot?#iefix') format('embedded-opentype'),
+         url('fonts/zekton_free.woff') format('woff'),
+         url('fonts/zekton_free.ttf') format('truetype'),
+         url('fonts/zekton_free.svg#zekton_free') format('svg');
+    /*font-weight: lighter;*/
+    font-style: normal;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: zekton_free;
+}
+* img {
+	border: none;
+}
+body {
+	background: url(../estru/bg_body.png) no-repeat top center #000000;
+}
+
+
+/*--------------------------------- PAGINA INCIAL ------------------------------------*/
+
+
+
+header {
+	width: 1100px;
+	height: 171px;
+	margin: 0px auto 0px auto;
+	border: 1px solid black;
+	background: url(../estru/bg_header.png) no-repeat top center;
+	text-align: center;
+}
+header img {
+	margin: 10px 0px 0px 0px;
+}
+
+header span {
+	color: #fff;
+	position: absolute;
+	right: 800px;
+	
+}
+
+nav {
+	width: 1000px;
+	height: 30px;
+	margin: 10px auto 0px auto;
+}
+
+nav ul {
+	list-style: none;
+	padding: 5px 0px 0px 0px;
+	box-sizing: border-box;
+}
+
+nav ul li {
+	list-style: none;
+	display: inline;	
+}
+nav ul li a {
+	color: #DBDBDB;
+	font-size: 19px;
+	margin: 0px 46px 0px 46px;
+	text-decoration: none;
+}
+nav ul li a:hover {
+	color: #99CE15;
+}
+nav ul li a.active {
+	color: #99CE15;
+}
+section.banner {
+	width: 1000px;
+	height: 355px;
+	margin: 30px auto 0px auto;
+	color: #FFF;
+}
+section.banner span a {
+	border: 1px solid #98FF00;
+	font-size: 18px;
+	padding: 5px;
+	position: relative;
+	top: -5px;
+	color: #fff;
+}
+
+section.banner span a:hover {
+	background-color: #999;
+	color: #000;
+}
+section.programacoes_fotos {
+	width: 1000px;
+	height: auto;
+	margin: 30px auto 60px auto;
+}
+
+article.proximo_envento {
+	width: 480px;
+	height: auto;
+	float: left;
+	border: 1px solid #333;
+}
+article.proximo_envento span a {
+	width: 110px;
+	border: 1px solid #98FF00;
+	font-size: 18px;
+	padding: 5px;
+	color: #fff;
+	margin: 0px 0px 0px 0px;
+	display: block;
+}
+
+article.proximo_envento span a:hover {
+	background-color: #999;
+	color: #000;
+}
+article.proximo_envento h1 {
+	font-size: 30px;
+	color: #CCC;
+	background-color: #4D4D4D;
+	padding: 19px 0px 0px 10px;
+	box-sizing: border-box;
+}
+article.proximo_envento h1:after {
+	content: url(../estru/border_proximo_evento.png);
+	position: relative;
+	top: -25px;
+}
+
+article.programacao {
+	width: 500px;
+	height: auto;
+	margin: 0px 0px 0px 500px;
+	background-color: #4D4D4D;
+	padding: 0px 0px 10px 0px;
+}
+article.programacao span a {
+	width: 200px;
+	border: 1px solid #98FF00;
+	font-size: 18px;
+	padding: 5px;
+	color: #fff;
+	margin: 0px 0px 0px 0px;
+	display: block;
+}
+
+article.programacao span a:hover {
+	background-color: #999;
+	color: #000;
+}
+article.programacao h1#eventos_indexx {
+	font-size: 25px;
+	color: #CCC;
+	background-color: #4D4D4D;
+	padding: 20px 0px 0px 10px;
+}
+article.programacao h1#eventos_indexx:after {
+	content: url(../estru/border_proximo_evento.png);
+	position: relative;
+	top: -14px;
+}
+/*article.programacao p {
+	width: 460px;
+	max-height: 375px;
+	padding: 10px;
+	margin: 0px auto 0px auto;
+	border: 2px solid #333;
+	color: #FFF;
+	overflow: auto;
+}*/
+article.programacao div.programacao_index {
+	width: 460px;
+	height: 375px;
+	padding: 10px;
+	margin: 0px auto 0px auto;
+	border: 2px solid #333;
+	color: #FFF;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+article.ultimas_fotos {
+	width: 500px;
+	height: 200px;
+	border: 1px solid #4D4D4D;
+	margin: 15px 0px 0px 499px;
+}
+article.ultimas_fotos h1 {
+	font-size: 15px;
+	color: #CCC;
+	background-color: #4D4D4D;
+	padding: 5px 0px 10px 10px;
+}
+article.ultimas_fotos h1:after {
+	content: url(../estru/border_ultimas_fotos.png);
+	position: relative;
+	top: 8px;
+	right: 45px;
+}
+article.ultimas_fotos img {
+	margin: 30px 0px 0px 8px;
+	border: 2px solid #333;
+}
+
+article.ultimos_videos {
+	width: 500px;
+	height: 200px;
+	border: 1px solid #4D4D4D;
+	margin: 15px 0px 0px 499px;
+}
+article.ultimos_videos h1 {
+	font-size: 15px;
+	color: #CCC;
+	background-color: #4D4D4D;
+	padding: 5px 0px 10px 10px;
+}
+article.ultimos_videos h1:after {
+	content: url(../estru/border_ultimas_fotos.png);
+	position: relative;
+	top: 8px;
+	right: 57px;
+}
+article.ultimos_videos img {
+	margin: 30px 0px 0px 8px;
+	border: 2px solid #333;
+}
+
+/**/
+article.plugin_facebook {
+	width: 480px;
+	height: 200px;
+	border: 1px solid #4D4D4D;
+	margin: -202px 0px 0px 0px;
+}
+article.plugin_facebook h1 {
+	font-size: 15px;
+	color: #CCC;
+	background-color: #4D4D4D;
+	padding: 5px 0px 10px 10px;
+}
+article.plugin_facebook h1:after {
+	content: url(../estru/border_ultimas_fotos.png);
+	position: relative;
+	top: 8px;
+	right: 80px;
+}
+
+/*--------------------------------- /PAGINA INCIAL ------------------------------------*/
+
+
+/*--------------------------------- O BAR ------------------------------------*/
+
+section#obar {
+	width: 1000px;
+	height: auto;
+	margin: 65px auto 50px auto;
+	text-align: center;
+	padding: 0px 0px 20px 0px;
+}
+
+section#obar h1 {
+	font-size: 26px;
+	color: #CCC;
+	padding: 5px 0px 10px 10px;
+	font-weight: lighter;
+	margin: 0px 0px 0px 0px;
+	text-align: left;
+}
+section#obar h1:after {
+	content: url(../estru/bg_titulo_obar.png);
+	position: relative;
+	top: -25px;
+}
+section#obar img {
+	margin: 25px 0px 0px 35px;
+}
+section#obar p {
+	width: 700px;
+	color: #ccc;
+	font-size: 20px;
+	float: right;
+	margin: 20px 40px 0px 0px;
+	text-align: left;
+}
+
+/*--------------------------------- /O BAR ------------------------------------*/
+
+
+
+/*--------------------------------- EVENTOS ------------------------------------*/
+
+section#eventos {
+	width: 1000px;
+	height: auto;
+	margin: 65px auto 50px auto;
+}
+section#eventos h1#eventos {
+	font-size: 30px;
+	color: #CCC;
+	padding: 5px 0px 10px 10px;
+	font-weight: lighter;
+	margin: 0px 0px 0px 0px;
+	text-align: left;
+}
+section#eventos h1#eventos:after {
+	content: url(../estru/bg_titulo_eventos.png);
+	position: relative;
+	top: -30px;
+}
+/*section#eventos p {
+	width: 1000px;
+	height: 500px;
+	margin: 0px auto 0px auto;
+	border: 1px solid white;
+}*/
+section#eventos div.listar_eventos {
+	width: 1000px;
+	height: auto;
+	margin: 0px auto 0px auto;
+}
+
+/*--------------------------------- /EVENTOS ------------------------------------*/
+
+
+
+/*--------------------------------- FOTOS ------------------------------------*/
+
+section#fotos {
+	width: 1000px;
+	height: auto;
+	margin: 65px auto 50px auto;
+}
+section#fotos:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0px;
+	overflow: hidden;
+}
+section#fotos h1 {
+	font-size: 30px;
+	color: #CCC;
+	padding: 5px 0px 10px 10px;
+	font-weight: lighter;
+	margin: 0px 0px 0px 0px;
+	text-align: left;
+}
+section#fotos h1:after {
+	content: url(../estru/linha_titulo_evento.png);
+	position: relative;
+	top: -30px;
+}
+section#fotos figure {
+	float: left;
+	margin: 0px 0px 30px 20px;
+}
+section#fotos figure figcaption a {
+	color: #ccc;
+	margin: 0px 0px 5px 0px;
+	text-decoration: none;
+}
+section#fotos figure figcaption a:hover {
+	background-color: #FF6A6A;
+	color: #fff;
+}
+
+section#fotos figure img {
+	border: 12px solid #4D4D4D;
+}
+
+/*----------------------- FOTOS_EVENTO -------------------------*/
+section#fotos_evento {
+	width: 1000px;
+	height: auto;
+	margin: 65px auto 50px auto;
+	text-align: center;
+	padding: 0px 0px 20px 0px;
+}
+section#fotos_evento:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0px;
+	overflow: hidden;
+}
+section#fotos_evento h1 {
+	font-size: 30px;
+	color: #CCC;
+	padding: 5px 0px 10px 10px;
+	font-weight: lighter;
+	margin: 0px 0px 0px 0px;
+	text-align: left;
+}
+section#fotos_evento h1:after {
+	content: url(../estru/linha_titulo_evento.png);
+	position: relative;
+	top: -30px;
+}
+
+section#fotos_evento div#check {
+	float: left;
+	text-align: center;
+}
+
+section#fotos_evento div#check a {
+	color: #C0C0C0;
+	text-decoration: none;
+}
+section#fotos_evento div#check a:hover {
+	background-color: #F88;
+	color: #fff;
+}
+/*----------------------- /FOTOS_EVENTO -------------------------*/
+
+
+/*--------------------------------- /FOTOS ------------------------------------*/
+
+/*--------------------------------- VIDEOS ------------------------------------*/
+
+section#videos {
+	width: 1000px;
+	height: auto;
+	margin: 65px auto 50px auto;
+}
+section#videos:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0px;
+	overflow: hidden;
+}
+section#videos h1 {
+	font-size: 30px;
+	color: #CCC;
+	padding: 5px 0px 10px 10px;
+	font-weight: lighter;
+	margin: 0px 0px 0px 0px;
+	text-align: left;
+}
+section#videos h1:after {
+	content: url(../estru/linha_titulo_evento.png);
+	position: relative;
+	top: -30px;
+}
+section#videos div.videos_block {
+	border-radius: 5px;
+	float: left;
+	margin: 0px 0px 30px 53px;
+}
+section#videos div.videos_block h2 {
+	color: #CCC;
+	font-size: 16px;
+	margin: 0px 0px 5px 0px;
+}
+
+section#videos div.videos_block img {
+	border: 10px solid #4D4D4d;
+}
+
+
+
+
+
+/*--------------------------------- /VIDEOS ------------------------------------*/
+
+/*--------------------------------- CONTATO ------------------------------------*/
+
+section#contato {
+	width: 1000px;
+	height: auto;
+	margin: 65px auto 50px auto;
+}
+section#contato h1 {
+	font-size: 30px;
+	color: #CCC;
+	padding: 5px 0px 10px 10px;
+	font-weight: lighter;
+	margin: 0px 0px 0px 0px;
+	text-align: left;
+}
+section#contato h1:after {
+	content: url(../estru/border_contato.png);
+	position: relative;
+	top: -32px;
+}
+section#contato p {
+	width: 850px;
+	color: #999;
+	font-size: 16px;
+	margin: 0px 0px 30px 10px;
+}
+section#contato form label {
+	width: 150px;
+	display: block;
+	color: #CCC;
+	font-size: 18px;
+	background-color: #4D4D4D;
+	padding: 3px;
+}
+
+section#contato form input {
+	width: 497px;
+	height: 55px;
+	background-color: #4D4D4D;
+	border: none;
+	margin: 0px 0px 10px 0px;
+	color: #000;
+	font-size: 20px;
+	box-shadow: 0px 0px 10px #000;
+	-moz-box-shadow: 0px 0px 10px #000;
+	-ms-box-shadow: 0px 0px 10px #000;
+	-o-box-shadow: 0px 0px 10px #000;
+	-webkit-box-shadow: 0px 0px 10px #000;
+}
+
+section#contato form input:focus {
+	outline: none;
+	background-color: #606060;
+}
+section#contato form textarea {
+	width: 497px;
+	height: 240px;
+	background-color: #4D4D4D;
+	border: none;
+	margin: 0px 0px 10px 0px;
+	color: #000;
+	font-size: 20px;
+	box-shadow: 0px 0px 10px #000;
+	-moz-box-shadow: 0px 0px 10px #000;
+	-ms-box-shadow: 0px 0px 10px #000;
+	-o-box-shadow: 0px 0px 10px #000;
+	-webkit-box-shadow: 0px 0px 10px #000;
+}
+
+section#contato form textarea:focus {
+	outline: none;
+	background-color: #606060;
+}
+section#contato form input[type="image"] {
+	background-color: transparent;
+	width: auto;
+	height: auto;
+	margin: -10px 0px 0px 225px;
+}
+section#contato div.endereco_mapa {
+	width: 440px;
+	height: 400px;
+	border: 1px solid #4D4D4D;
+	float: right;
+}
+section#contato div.mapa {
+	width: 428px;
+	height: 165px;
+	border: 5px solid #4D4D4D;
+}
+section#contato div.endereco {
+	width: 436px;
+	height: 165px;
+	margin: 30px 0px 0px 0px;
+}
+
+section#contato div.endereco p {
+	margin: 0px 0px 10px 105px;
+}
+section#contato div.endereco p:last-child {
+	text-decoration: underline;
+}
+section#contato  img {
+	margin: 35px 0px 0px 115px;
+}
+
+
+/*--------------------------------- /CONTATO ------------------------------------*/
+
+
+
+/*--------------------------------- FOOTER ------------------------------------*/
+
+
+footer {
+	width: 100%;
+	height: auto;
+	background: url(../estru/bg_footer.png) top repeat-x;
+	margin: 0px 0px 0px 0px;
+}
+
+div.footer_conteudo {
+	width: 1000px;
+	height: 100px;
+	margin: 0px auto 0px auto;
+	border: 1px solid transparent;
+}
+
+div.footer_conteudo article {
+	width: 760px;
+	margin: 60px 0px 0px 0px;
+}
+div.footer_conteudo article p {
+	color: #fff;
+	font-size: 13px;
+	margin: 0px 0px 5px 0px;
+}
+
+div.footer_conteudo article p:last-child {
+	color: #999;
+}
+
+div.footer_conteudo div.icones {
+	width: 300px;
+	height: 70px;
+	float: right;
+	text-align: center;
+	margin: -75px 20px 0px 0px;
+}
+div.footer_conteudo div.icones img {
+	margin: 0px 0px 0px 15px;
+}
+/*--------------------------------- /FOOTER ------------------------------------*/
+
+/*--------------------------------- ADMINISTRAÇÃO ------------------------------------*/
+
+/*----- ALTERAR BANNER ------*/
+
+section#mudar_banners {
+	width: 1000px;
+	height: auto;
+	margin: 65px auto 50px auto;
+	padding: 0px 0px 20px 0px;
+}
+
+section#mudar_banners figure a {
+	color: #fff;
+}
+section#mudar_banners:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0px;
+	overflow: hidden;
+}
+section#mudar_banners h1 {
+	font-size: 30px;
+	color: #CCC;
+	padding: 5px 0px 10px 10px;
+	font-weight: lighter;
+	margin: 0px 0px 0px 0px;
+	text-align: left;
+}
+section#mudar_banners h1:after {
+	content: url(../estru/linha_titulo_evento.png);
+	position: relative;
+	top: -32px;
+}
+section#mudar_banners form {
+	width: 420px;
+	margin: 0px auto 50px auto;
+	border: 1px solid #CCC;
+	padding: 10px;
+}
+
+section#mudar_banners label {
+	display: block;
+	font-size: 16px;
+	color: #CCC;
+	margin: 10px 0px 0px 0px;
+}
+
+section#mudar_banners input {
+	width: 350px;
+	height: 30px;
+	font-size: 18px;
+	background-color: #999;
+}
+section#mudar_banners input[type="file"] {
+	width: 400px;
+}
+section#mudar_banners input[type="submit"] {
+	width: 200px;
+	margin: 20px 0px 0px 0px;
+}
+section#mudar_banners figure {
+	width: 440px;
+	height: 156px;
+	float: left;
+	border: 2px solid #4D4D4D;
+	margin: 0px 0px 0px 38px;
+}
+section#mudar_banners figcaption {
+	color: #fff;
+	font-size: 16px;
+}
+
+p.sucesso {
+	background-color: #95FF95;
+	border-top: 2px solid #00A800;
+	border-bottom: 2px solid #00A800;
+	padding: 10px 0px 10px 10px;
+	margin: 10px 0px 10px 0px;
+	font-size: 15px;
+}
+
+p.sucesso_banner {
+	background-color: #95FF95;
+	border-top: 2px solid #00A800;
+	border-bottom: 2px solid #00A800;
+	padding: 10px 0px 10px 10px;
+	margin: -50px 0px 10px 0px;
+	font-size: 15px;
+}
+
+p.error {
+	background-color: #FF8484;
+	border-top: 2px solid #EA0000;
+	border-bottom: 2px solid #EA0000;
+	padding: 10px 0px 10px 10px;
+	margin: 10px 0px 10px 0px;
+	font-size: 15px;
+}
+/*----- /ALTERAR BANNER ------*/
+
+/*----- ALTERAR CARTAZ PROX EVENTO ------*/
+
+section#mudar_cartaz {
+	width: 1000px;
+	height: auto;
+	margin: 65px auto 50px auto;
+	padding: 0px 0px 20px 0px;
+}
+
+section#mudar_cartaz h1 {
+	font-size: 30px;
+	color: #CCC;
+	padding: 5px 0px 10px 10px;
+	font-weight: lighter;
+	margin: 0px 0px 0px 0px;
+	text-align: left;
+}
+section#mudar_cartaz h1:after {
+	content: url(../estru/linha_titulo_evento.png);
+	position: relative;
+	top: -32px;
+}
+section#mudar_cartaz form {
+	width: 420px;
+	margin: 0px auto 50px auto;
+	border: 1px solid #CCC;
+	padding: 10px;
+}
+
+section#mudar_cartaz label {
+	display: block;
+	font-size: 16px;
+	color: #CCC;
+	margin: 10px 0px 0px 0px;
+}
+
+section#mudar_cartaz input {
+	width: 350px;
+	height: 30px;
+	font-size: 18px;
+	background-color: #999;
+}
+section#mudar_cartaz input[type="file"] {
+	width: 400px;
+}
+section#mudar_cartaz input[type="submit"] {
+	width: 200px;
+	margin: 20px 0px 0px 0px;
+}
+section#mudar_cartaz figure figcaption {
+	color: #fff;
+}
+section#mudar_cartaz a {
+	color: #CCC;
+	text-decoration: none;
+}
+section#mudar_cartaz a:hover {
+	background-color: #FF9191;
+	color: #fff;
+}
+
+/*----- /ALTERAR CARTAZ PROX EVENTO ------*/
+
+/*----- PROGRAMACAO INDEX ------*/
+
+section#programacao_index {
+	width: 1000px;
+	height: auto;
+	margin: 65px auto 50px auto;
+	padding: 0px 0px 20px 0px;
+}
+
+section#programacao_index h1 {
+	font-size: 30px;
+	color: #CCC;
+	padding: 5px 0px 10px 10px;
+	font-weight: lighter;
+	margin: 0px 0px 0px 0px;
+	text-align: left;
+}
+section#programacao_index h1 {
+	content: url(../estru/linha_titulo_evento.png);
+	position: relative;
+	top: -32px;
+}
+
+section#programacao_index label {
+	display: block;
+	font-size: 16px;
+	color: #CCC;
+	margin: 10px 0px 0px 0px;
+}
+section#programacao_index form {
+	width: 1000px;
+	margin: 0px auto 50px auto;
+}
+section#programacao_index textarea {
+	width: 1000px;
+	height: 500px;
+	font-size: 30px;
+	background-color: #999;
+}
+section#programacao_index input[type="submit"] {
+	width: 200px;
+	height: 30px;
+	margin: 10px 0px 0px 0px;
+}
+/*----- /PROGRAMACAO INDEX ------*/
+
+/*----- PROGRAMACAO PAGINA EVENTOS ------*/
+
+
+section#eventos input[type="submit"] {
+	width: 200px;
+	height: 30px;
+	margin: 10px 0px 0px 0px;
+}
+/*----- /PROGRAMACAO PAGINA EVENTOS ------*/
+
+/*----- EDITAR GALERIA ------*/
+
+section#galeria_editar {
+	width: 1000px;
+	height: auto;
+	margin: 65px auto 50px auto;
+	padding: 0px 0px 20px 0px;
+}
+
+/**/
+section#galeria_editar form {
+	width: 420px;
+	margin: 0px auto 50px auto;
+	border: 1px solid #CCC;
+	padding: 10px;
+}
+
+section#galeria_editar label {
+	display: block;
+	font-size: 16px;
+	color: #CCC;
+	margin: 10px 0px 0px 0px;
+}
+
+section#galeria_editar input {
+	width: 350px;
+	height: 30px;
+	font-size: 18px;
+	background-color: #999;
+}
+section#galeria_editar input[type="file"] {
+	width: 400px;
+}
+section#galeria_editar input[type="submit"] {
+	width: 200px;
+	margin: 20px 0px 0px 0px;
+}
+
+/**/
+section#fotos_evento_inserir_imagem form {
+	width: 420px;
+	margin: 0px auto 50px auto;
+	border: 1px solid #CCC;
+	padding: 10px;
+}
+
+section#fotos_evento_inserir_imagem label {
+	display: block;
+	font-size: 16px;
+	color: #CCC;
+	margin: 10px 0px 0px 0px;
+}
+
+section#fotos_evento_inserir_imagem input {
+	width: 350px;
+	height: 30px;
+	font-size: 18px;
+	background-color: #999;
+}
+
+section#fotos_evento_inserir_imagem input[type="file"] {
+	width: 400px;
+}
+section#fotos_evento_inserir_imagem input[type="submit"] {
+	width: 200px;
+	margin: 20px 0px 0px 0px;
+}
+section#fotos_evento_inserir_imagem span.MultiFile-title {
+	color: #CCC;
+}
+section#fotos_evento_inserir_imagem a.MultiFile-remove {
+	color: #F00;
+}
+
+/*----- /EDITAR GALERIA ------*/
+
+/*----- EDITAR VIDEO ------*/
+
+
+section#video_editar form {
+	width: 420px;
+	margin: 0px auto 50px auto;
+	border: 1px solid #CCC;
+	padding: 10px;
+}
+
+section#video_editar label {
+	display: block;
+	font-size: 16px;
+	color: #CCC;
+	margin: 10px 0px 0px 0px;
+}
+
+section#video_editar input {
+	width: 350px;
+	height: 30px;
+	font-size: 18px;
+	background-color: #999;
+}
+section#video_editar input[type="file"] {
+	width: 400px;
+}
+section#video_editar input[type="submit"] {
+	width: 200px;
+	margin: 20px 0px 0px 0px;
+}
+section#video_editar figure figcaption {
+	color: #fff;
+}
+section#videos div.videos_block h2 {
+	font-size: 14px;
+}
+section#videos div.videos_block a {
+	color: #CCC;
+	text-decoration: none;
+}
+section#videos div.videos_block a:hover {
+	background-color: #FF9191;
+	color: #fff;
+}
+
+
+
+/*----- /EDITAR VIDEO ------*/
+
+<!--------------------------------- /ADMINISTRAÇÃO ------------------------------------>

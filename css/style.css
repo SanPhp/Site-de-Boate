@@ -1,0 +1,570 @@
+@font-face {
+    font-family: 'zekton_free';
+    src: url('fonts/zekton_free.eot');
+    src: url('fonts/zekton_free.eot?#iefix') format('embedded-opentype'),
+         url('fonts/zekton_free.woff') format('woff'),
+         url('fonts/zekton_free.ttf') format('truetype'),
+         url('fonts/zekton_free.svg#zekton_free') format('svg');
+    /*font-weight: lighter;*/
+    font-style: normal;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: zekton_free;
+} 
+* img {
+	border: none;
+}
+body {
+	background: url(../estru/bg_body.png) no-repeat top center #000000;
+	overflow-x: hidden; 
+}
+
+/*--------------------------------- PAGINA INCIAL ------------------------------------*/
+header {
+	width: 100%;
+	height: 178px;
+	margin: 0px auto 0px auto;
+	background: url(../estru/bg_header5.png) no-repeat center center;
+	text-align: center;
+}
+header img {
+	margin: 10px 0px 0px 0px;
+}
+
+nav {
+	width: 1000px;
+	height: 30px;
+	margin: 10px auto 0px auto;
+}
+
+nav ul {
+	list-style: none;
+	padding: 5px 0px 0px 0px;
+	box-sizing: border-box;
+}
+
+nav ul li {
+	list-style: none;
+	display: inline;
+}
+
+nav ul li.menu1 {
+	float: left;
+	position: relative;
+	top: -45px;
+	margin: 0px 55px 0px 20px;
+}
+
+nav ul li.menu2 {
+	float: right;
+	position: relative;
+	top: -45px;
+	margin: 0px 20px 0px 45px;
+}
+nav ul li a {
+	color: #DBDBDB;
+	font-size: 17px;
+	text-decoration: none;
+}
+nav ul li a:hover {
+	color: #99CE15;
+}
+nav ul li a.active {
+	color: #99CE15;
+}
+section.banner {
+	width: 1000px;
+	height: 326px;
+	margin: 30px auto 0px auto;
+}
+
+section.programacoes_fotos {
+	width: 1000px;
+	height: auto;
+	margin: 30px auto 60px auto;
+}
+
+article.proximo_envento {
+	width: 480px;
+	height: auto;
+	float: left;
+	border: 1px solid #333;
+}
+article.proximo_envento h1 {
+	font-size: 20px;
+	color: #CCC;
+	background-color: #4D4D4D;
+	padding: 19px 0px 0px 10px;
+	box-sizing: border-box;
+}
+article.proximo_envento h1:after {
+	content: url(../estru/border_proximo_evento.png);
+	position: relative;
+	top: -20px;
+}
+
+article.programacao {
+	width: 500px;
+	height: 568px;
+	margin: 0px 0px 0px 500px;
+	background-color: #4D4D4D;
+	padding: 0px 0px 10px 0px;
+}
+article.programacao h1#eventos_indexx {
+	font-size: 20px;
+	color: #CCC;
+	background-color: #4D4D4D;
+	padding: 20px 0px 0px 10px;
+}
+article.programacao h1#eventos_indexx:after {
+	content: url(../estru/border_proximo_evento.png);
+	position: relative;
+	top: -17px;
+}
+/*article.programacao p {
+	width: 460px;
+	max-height: 375px;
+	padding: 10px;
+	margin: 0px auto 0px auto;
+	border: 2px solid #333;
+	color: #FFF;
+	overflow: auto;
+}*/
+article.programacao div.programacao_index {
+	width: 460px;
+	height: 475px;
+	padding: 10px;
+	margin: 0px auto 0px auto;
+	border: 2px solid #333;
+	color: #FFF;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+article.ultimas_fotos {
+	width: 1000px;
+	height: 200px;
+	border: 1px solid #4D4D4D;
+	margin: 15px 0px 0px 0px;
+}
+article.ultimas_fotos h1 {
+	font-size: 15px;
+	color: #CCC;
+	background-color: #4D4D4D;
+	padding: 5px 0px 10px 10px;
+}
+article.ultimas_fotos h1:after {
+	content: url(../estru/border_ultimas_fotos.png);
+	position: relative;
+	top: 8px;
+	right: 45px;
+}
+article.ultimas_fotos img {
+	margin: 30px 0px 0px 8px;
+	border: 2px solid #333;
+}
+
+article.ultimos_videos {
+	width: 500px;
+	height: 200px;
+	border: 1px solid #4D4D4D;
+	margin: 15px 0px 0px 499px;
+}
+article.ultimos_videos h1 {
+	font-size: 15px;
+	color: #CCC;
+	background-color: #4D4D4D;
+	padding: 5px 0px 10px 10px;
+}
+article.ultimos_videos h1:after {
+	content: url(../estru/border_ultimas_fotos.png);
+	position: relative;
+	top: 8px;
+	right: 57px;
+}
+article.ultimos_videos img {
+	margin: 30px 0px 0px 8px;
+	border: 2px solid #333;
+}
+
+/**/
+article.plugin_facebook {
+	width: 480px;
+	height: 200px;
+	border: 1px solid #4D4D4D;
+	margin: -202px 0px 0px 0px;
+}
+article.plugin_facebook h1 {
+	font-size: 15px;
+	color: #CCC;
+	background-color: #4D4D4D;
+	padding: 5px 0px 10px 10px;
+}
+article.plugin_facebook h1:after {
+	content: url(../estru/border_ultimas_fotos.png);
+	position: relative;
+	top: 8px;
+	right: 80px;
+}
+
+/*--------------------------------- /PAGINA INCIAL ------------------------------------*/
+
+
+/*--------------------------------- O BAR ------------------------------------*/
+
+section#obar {
+	width: 1000px;
+	height: auto;
+	margin: 65px auto 50px auto;
+	text-align: center;
+	padding: 0px 0px 20px 0px;
+}
+
+section#obar:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0px;
+	overflow: hidden;
+}
+
+section#obar h1 {
+	font-size: 20px;
+	color: #CCC;
+	padding: 5px 0px 10px 10px;
+	font-weight: lighter;
+	margin: 0px 0px 0px 0px;
+	text-align: left;
+}
+section#obar h1:after {
+	content: url(../estru/bg_titulo_obar.png);
+	position: relative;
+	top: -20px;
+}
+section#obar img {
+	margin: 25px 0px 0px 35px;
+}
+section#obar p {
+	font-family: Tahoma, Geneva, sans-serif;
+	letter-spacing: 1px;
+	line-height: 23px;
+	width: 700px;
+	color: #ccc;
+	font-size: 15px;
+	float: right;
+	margin: 20px 40px 0px 0px;
+	text-align: left;
+}
+
+/*--------------------------------- /O BAR ------------------------------------*/
+
+
+
+/*--------------------------------- EVENTOS ------------------------------------*/
+
+section#eventos {
+	width: 1000px;
+	height: auto;
+	margin: 65px auto 50px auto;
+}
+section#eventos h1#eventos {
+	font-size: 20px;
+	color: #CCC;
+	padding: 5px 0px 10px 10px;
+	font-weight: lighter;
+	margin: 0px 0px 0px 0px;
+	text-align: left;
+}
+section#eventos h1#eventos:after {
+	content: url(../estru/bg_titulo_eventos.png);
+	position: relative;
+	top: -20px;
+}
+/*section#eventos p {
+	width: 1000px;
+	height: 500px;
+	margin: 0px auto 0px auto;
+	border: 1px solid white;
+}*/
+section#eventos div.listar_eventos {
+	width: 1000px;
+	height: auto;
+	margin: 0px auto 0px auto;
+}
+
+
+/*--------------------------------- /EVENTOS ------------------------------------*/
+
+
+
+/*--------------------------------- FOTOS ------------------------------------*/
+
+section#fotos {
+	width: 1000px;
+	height: auto;
+	margin: 65px auto 50px auto;
+}
+section#fotos:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0px;
+	overflow: hidden;
+}
+section#fotos h1 {
+	font-size: 20px;
+	color: #CCC;
+	padding: 5px 0px 10px 10px;
+	font-weight: lighter;
+	margin: 0px 0px 0px 0px;
+	text-align: left;
+}
+section#fotos h1:after {
+	content: url(../estru/linha_titulo_evento.png);
+	position: relative;
+	top: -20px;
+}
+section#fotos figure {
+	float: left;
+	margin: 0px 0px 30px 20px;
+}
+
+section#fotos figure img {
+	border: 12px solid #4D4D4D;
+}
+
+/*----------------------- FOTOS_EVENTO -------------------------*/
+section#fotos_evento {
+	width: 1000px;
+	height: auto;
+	margin: 65px auto 50px auto;
+	text-align: center;
+}
+section#fotos_evento h1 {
+	font-size: 20px;
+	color: #CCC;
+	padding: 5px 0px 10px 10px;
+	font-weight: lighter;
+	margin: 0px 0px 0px 0px;
+	text-align: left;
+}
+section#fotos_evento h1:after {
+	content: url(../estru/linha_titulo_evento.png);
+	position: relative;
+	top: -20px;
+}
+
+/*----------------------- /FOTOS_EVENTO -------------------------*/
+
+
+/*--------------------------------- /FOTOS ------------------------------------*/
+
+
+/*--------------------------------- VIDEOS ------------------------------------*/
+
+section#videos {
+	width: 1000px;
+	height: auto;
+	margin: 65px auto 50px auto;
+}
+section#videos:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0px;
+	overflow: hidden;
+}
+section#videos h1 {
+	font-size: 20px;
+	color: #CCC;
+	padding: 5px 0px 10px 10px;
+	font-weight: lighter;
+	margin: 0px 0px 0px 0px;
+	text-align: left;
+}
+section#videos h1:after {
+	content: url(../estru/linha_titulo_evento.png);
+	position: relative;
+	top: -20px;
+}
+section#videos div.videos_block {
+	border-radius: 5px;
+	float: left;
+	margin: 0px 0px 30px 53px;
+}
+section#videos div.videos_block h2 {
+	color: #CCC;
+	font-size: 14px;
+	margin: 0px 0px 5px 0px;
+}
+
+section#videos div.videos_block img {
+	border: 10px solid #4D4D4d;
+}
+
+
+
+
+
+/*--------------------------------- /VIDEOS ------------------------------------*/
+
+/*--------------------------------- CONTATO ------------------------------------*/
+
+section#contato {
+	width: 1000px;
+	height: 700px;
+	margin: 65px auto 50px auto;
+}
+section#contato h1 {
+	font-size: 20px;
+	color: #CCC;
+	padding: 5px 0px 10px 10px;
+	font-weight: lighter;
+	margin: 0px 0px 0px 0px;
+	text-align: left;
+}
+section#contato h1:after {
+	content: url(../estru/border_contato.png);
+	position: relative;
+	top: -20px;
+}
+section#contato p {
+	width: 850px;
+	color: #999;
+	font-size: 16px;
+	margin: 0px 0px 30px 10px;
+}
+section#contato form label {
+	width: 150px;
+	display: block;
+	color: #CCC;
+	font-size: 15px;
+	background-color: #4D4D4D;
+	padding: 3px;
+}
+
+section#contato form input {
+	width: 400px;
+	height: 40px;
+	background-color: #4D4D4D;
+	border: none;
+	margin: 0px 0px 10px 0px;
+	color: #000;
+	font-size: 20px;
+	padding: 0px 0px 0px 5px;
+	box-shadow: 0px 0px 10px #000;
+	-moz-box-shadow: 0px 0px 10px #000;
+	-ms-box-shadow: 0px 0px 10px #000;
+	-o-box-shadow: 0px 0px 10px #000;
+	-webkit-box-shadow: 0px 0px 10px #000;
+}
+
+section#contato form input:focus {
+	outline: none;
+	background-color: #606060;
+}
+section#contato form textarea {
+	width: 400px;
+	height: 100px;
+	background-color: #4D4D4D;
+	border: none;
+	margin: 0px 0px 10px 0px;
+	color: #000;
+	font-size: 20px;
+	padding: 0px 0px 0px 5px;
+	box-shadow: 0px 0px 10px #000;
+	-moz-box-shadow: 0px 0px 10px #000;
+	-ms-box-shadow: 0px 0px 10px #000;
+	-o-box-shadow: 0px 0px 10px #000;
+	-webkit-box-shadow: 0px 0px 10px #000;
+}
+
+section#contato form textarea:focus {
+	outline: none;
+	background-color: #606060;
+}
+section#contato form input[type="image"] {
+	background-color: transparent;
+	width: auto;
+	height: auto;
+	margin: -8px 0px 0px 200px;
+}
+section#contato div.endereco_mapa {
+	width: 540px;
+	height: 400px;
+	border: 1px solid #4D4D4D;
+	float: right;
+}
+section#contato div.mapa {
+	width: 530px;
+	height: 165px;
+	border: 5px solid #4D4D4D;
+}
+section#contato div.endereco {
+	width: 436px;
+	height: 165px;
+	margin: 30px 0px 0px 0px;
+}
+
+section#contato div.endereco p {
+	margin: 0px 0px 10px 160px;
+}
+section#contato div.endereco p:last-child {
+	text-decoration: underline;
+}
+section#contato img {
+	margin: 45px 0px 0px 180px;
+}
+
+
+/*--------------------------------- /CONTATO ------------------------------------*/
+
+
+
+/*--------------------------------- FOOTER ------------------------------------*/
+
+
+footer {
+	width: 100%;
+	height: auto;
+	background: url(../estru/bg_footer.png) top repeat-x;
+	margin: 0px 0px 0px 0px;
+}
+
+div.footer_conteudo {
+	width: 1000px;
+	height: 100px;
+	margin: 0px auto 0px auto;
+	border: 1px solid transparent;
+}
+
+div.footer_conteudo article {
+	width: 760px;
+	margin: 60px 0px 0px 0px;
+}
+div.footer_conteudo article p {
+	color: #fff;
+	font-size: 13px;
+	margin: 0px 0px 5px 0px;
+}
+
+div.footer_conteudo article p:last-child {
+	color: #999;
+}
+
+div.footer_conteudo div.icones {
+	width: 300px;
+	height: 70px;
+	float: right;
+	text-align: center;
+	margin: -75px 20px 0px 0px;
+}
+div.footer_conteudo div.icones img {
+	margin: 0px 0px 0px 15px;
+}
+/*--------------------------------- /FOOTER ------------------------------------*/
