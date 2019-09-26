@@ -7,7 +7,7 @@ como foi programado, mas na época foi muito importânte para mim testar novos c
 
 # Configuração
 
-- Pasta SQL BANDO DE DADOS contém o arquivo .sql do banco de dados (Mysql).
-- Altere o arquivo connect.php dentra da pasta deck34admin e deck34usuario
+- A pasta SQL BANDO DE DADOS contém o arquivo .sql do banco de dados (Mysql).
+- Altere o arquivo connect.php que está dentro de deck34admin/util e deck34usuario/util
 - Para se logar altere as credenciais do arquivo authorize.php que esta dentro da pasta deck34admin/util e deck34usuario/util
 
