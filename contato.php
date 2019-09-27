@@ -19,7 +19,7 @@
         	<div class="endereco_mapa">
             	
                 <div class="mapa">
-                <iframe width="530" height="165" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117700.45693540592!2d-43.59959552592809!3d-22.79730247495676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bde559108a05b%3A0x50dc426c672fd24e!2sRio%20de%20Janeiro%2C%20RJ!5e0!3m2!1spt-BR!2sbr!4v1569380386916!5m2!1spt-BR!2sbr" style="color:#0000FF;text-align:left"></a></small>
+                <iframe width="530" height="165" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.br/maps?f=q&amp;source=s_q&amp;hl=pt-BR&amp;geocode=&amp;q=saopaulo+avenida+paulista&amp;aq=&amp;sll=-24.614808,-51.321488&amp;sspn=5.980786,7.064209&amp;ie=UTF8&amp;hq=&amp;hnear=R.+Tico+Tico,+34,+Arapongas+-+Paran%C3%A1,+86701-180&amp;t=m&amp;ll=-23.41263,-51.430392&amp;spn=0.003249,0.009162&amp;z=16&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com.br/maps?f=q&amp;source=embed&amp;hl=pt-BR&amp;geocode=&amp;q=arapongas+rua+tico+tico+34&amp;aq=&amp;sll=-24.614808,-51.321488&amp;sspn=5.980786,7.064209&amp;ie=UTF8&amp;hq=&amp;hnear=R.+Tico+Tico,+34,+Arapongas+-+Paran%C3%A1,+86701-180&amp;t=m&amp;ll=-23.41263,-51.430392&amp;spn=0.003249,0.009162&amp;z=16" style="color:#0000FF;text-align:left"></a></small>
                 </div><!--mapa-->
             
             <div class="endereco">
