@@ -11,3 +11,4 @@ como foi programado, mas na época foi muito importânte para mim testar novos c
 - Altere o arquivo connect.php que está dentro de deck34admin/util e deck34usuario/util
 - Para se logar altere as credenciais do arquivo authorize.php que esta dentro da pasta deck34admin/util e deck34usuario/util
 
+<img src="screenshots/1.png" width="1000"> <img src="screenshots/2.png" width="1000"> <img src="screenshots/3.png" width="1000"> <img src="screenshots/4.png" width="1000"> <img src="screenshots/5.png" width="1000"> <img src="screenshots/6.png" width="1000"> <img src="screenshots/7.png" width="1000"> <img src="screenshots/8.png" width="1000">
